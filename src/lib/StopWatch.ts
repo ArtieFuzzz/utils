@@ -12,20 +12,32 @@ export default class StopWatch {
 		this.digits = digits
 	}
 
+	/**
+	 * Returns this StopWatch's raw duration in milliseconds
+	 */
 	public get duration() {
 		return this.#end ? this.#end - this.#start! : performance.now() - this.#start!
 	}
 
+	/**
+	 * Returns a boolean indicating whether or not this StopWatch is running
+	 */
 	public get isRunning() {
 		return Boolean(!this.#end)
 	}
 
+	/**
+	 * Stops this StopWatch and returns with the human readable duration.
+	 */
 	public stop() {
 		this.#end = performance.now()
 
 		return this.symbol()
 	}
 
+	/**
+	 * Restarts this StopWatch
+	 */
 	public restart() {
 		this.#start = performance.now()
 		this.#end = null
@@ -33,6 +45,9 @@ export default class StopWatch {
 		return this
 	}
 
+	/**
+	 * Starts this StopWatch
+	 */
 	public start() {
 		if (!this.isRunning) {
 			this.#start = performance.now() - this.duration
@@ -42,6 +57,9 @@ export default class StopWatch {
 		return this
 	}
 
+	/**
+	 * Returns with the human readable duration.
+	 */
 	private symbol() {
 		const duration = this.duration
 
