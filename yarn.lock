@@ -5,9 +5,9 @@ __metadata:
   version: 5
   cacheKey: 8
 
-"@artiefuzzz/util@workspace:.":
+"@artiefuzzz/utils@workspace:.":
   version: 0.0.0-use.local
-  resolution: "@artiefuzzz/util@workspace:."
+  resolution: "@artiefuzzz/utils@workspace:."
   dependencies:
     "@types/node": ^16.11.12
     xv: ^1.1.1
