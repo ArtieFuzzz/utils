@@ -11,7 +11,7 @@ export async function stopWatch() {
 	watch.stop()
 
 	equal(watch.duration > 4990, true)
-	equal(watch.toString().startsWith('5') && watch.toString().endsWith('s'), true)
+	equal(watch.stop().startsWith('5') && watch.stop().endsWith('s'), true)
 }
 
 export function Objects() {
