@@ -1,0 +1,22 @@
+{
+  "name": "@artiefuzzz/utils",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.1.1",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p src",
+    "test": "tsc -p tests && xv tests"
+  },
+  "files": [
+    "build",
+    "!build/tsconfig.tsbuildinfo"
+  ],
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "xv": "^1.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArtieFuzzz/utils"
+  }
+}
