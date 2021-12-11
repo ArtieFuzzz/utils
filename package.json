@@ -1,9 +1,9 @@
 {
   "name": "@artiefuzzz/utils",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "packageManager": "yarn@3.1.1",
   "license": "MIT",
-  "types": "./build/index.d.ts",
+  "types": "index.d.ts",
   "main": "./build/index.js",
   "scripts": {
     "build": "tsc -p src",
@@ -11,9 +11,11 @@
   },
   "files": [
     "build",
+    "index.d.ts",
     "!build/tsconfig.tsbuildinfo"
   ],
   "devDependencies": {
+    "@artiefuzzz/ts": "^1.1.1",
     "@types/node": "^16.11.12",
     "xv": "^1.1.1"
   },

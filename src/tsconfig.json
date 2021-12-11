@@ -1,7 +1,9 @@
 {
-  "extends": "../tsconfig.base.json",
+  "extends": "@artiefuzzz/ts",
   "compilerOptions": {
-    "outDir": "../build"
+    "outDir": "../build",
+    "target": "ESNext",
+    "removeComments": true
   },
   "include": ["."]
 }
