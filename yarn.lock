@@ -18,7 +18,7 @@ __metadata:
   dependencies:
     "@artiefuzzz/ts": 1.1.2
     "@types/node": 16.11.14
-    xv: ^1.1.1
+    xv: 1.1.1
   languageName: unknown
   linkType: soft
 
@@ -29,7 +29,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xv@npm:^1.1.1":
+"xv@npm:1.1.1":
   version: 1.1.1
   resolution: "xv@npm:1.1.1"
   bin:
