@@ -17,7 +17,7 @@
   "devDependencies": {
     "@artiefuzzz/ts": "1.1.2",
     "@types/node": "16.11.14",
-    "xv": "^1.1.1"
+    "xv": "1.1.1"
   },
   "repository": {
     "type": "git",
