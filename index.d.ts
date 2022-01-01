@@ -46,6 +46,8 @@ declare namespace Utilities {
   export function mergeObjects<A extends object, B extends object>(objTarget: A, objSource: Readonly<B>): A & B
 
   export const sleep: PromisifiedTimeout
+
+  export const isArray: (val: any) => boolean
 }
 
 export = Utilities

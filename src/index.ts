@@ -34,3 +34,5 @@ export function mergeObjects<A extends object, B extends object>(objTarget: A, o
 }
 
 export const sleep: PromisifiedTimeout = promisify(setTimeout)
+
+export const isArray = (val: any) => !!val && val.constructor === Array
