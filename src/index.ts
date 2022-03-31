@@ -8,7 +8,7 @@ export { default as StopWatch } from './lib/StopWatch'
  * @params obj Value to check
  */
 export function isEmptyObject(obj: Record<string, unknown>) {
-  return !Object.keys(obj).length ? false : true
+  return !Object.keys(obj).length ? true : false
 }
 
 /**
