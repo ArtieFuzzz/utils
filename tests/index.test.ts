@@ -21,8 +21,8 @@ export function Objects() {
 	const isNotObject = isObject('String!')
 	const object = isObject({ object: true })
 
-	equal(empty, false)
-	equal(notEmpty, true)
+	equal(empty, true)
+	equal(notEmpty, false)
 
 	equal(isNotObject, false)
 	equal(object, true)
