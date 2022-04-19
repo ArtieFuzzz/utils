@@ -1,4 +1,6 @@
-import type { PromisifiedTimeout } from './src/types'
+interface PromisifiedTimeout {
+  (ms: number): Promise<void>
+}
 
 declare namespace Utilities {
   export class StopWatch {

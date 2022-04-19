@@ -1,5 +1,5 @@
 import { promisify } from 'util'
-import { PromisifiedTimeout } from './types'
+import type { PromisifiedTimeout } from './types'
 
 export { default as StopWatch } from './lib/StopWatch'
 
