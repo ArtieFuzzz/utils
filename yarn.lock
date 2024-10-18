@@ -19,15 +19,15 @@ __metadata:
   resolution: "@artiefuzzz/utils@workspace:."
   dependencies:
     "@artiefuzzz/ts": 1.3.2
-    "@types/node": 16.11.36
+    "@types/node": 16.18.114
     xv: 1.1.1
   languageName: unknown
   linkType: soft
 
-"@types/node@npm:16.11.36":
-  version: 16.11.36
-  resolution: "@types/node@npm:16.11.36"
-  checksum: 878e8e2032869785dd4f73dd862042c7eb588fb9a27199f1b493a7029438ccb58f96e203c35c2e66e08307ca3f9767133cae888958c15e031982f7e9719e5e47
+"@types/node@npm:16.18.114":
+  version: 16.18.114
+  resolution: "@types/node@npm:16.18.114"
+  checksum: 2922009367d1c9c1a42ec11b66fc315629589455c7c5c7be5212fcdfe5c01655881ef7d1b862fe6fdad006a6b34e4fce0565a74db0d6a38f869b5d87601f6339
   languageName: node
   linkType: hard
 
