@@ -1,7 +1,7 @@
 {
   "name": "@artiefuzzz/utils",
   "version": "1.3.4",
-  "packageManager": "yarn@3.2.1",
+  "packageManager": "yarn@4.5.1",
   "license": "MIT",
   "types": "index.d.ts",
   "main": "./build/index.js",
