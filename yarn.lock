@@ -5,12 +5,12 @@ __metadata:
   version: 6
   cacheKey: 8
 
-"@artiefuzzz/ts@npm:1.3.2":
-  version: 1.3.2
-  resolution: "@artiefuzzz/ts@npm:1.3.2"
+"@artiefuzzz/ts@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@artiefuzzz/ts@npm:1.4.0"
   dependencies:
-    tslib: ^2.3.1
-  checksum: 6331ec7f65198ea5df36596a3bd3f24d32560df9147b8837dbd776448bb5c7bc19bdd3f8b96e2917e07ddf150d7deb89eab003718ab42aec5f7e022908699d9b
+    tslib: 2.8.1
+  checksum: dcc7ab1da97ee97331302aadda7c3b0658014eb588a596596d44fe94eeaacb75b3b425ba78be934589267021c0ac6e3aaa840933a331f42da9fa1f8fe8e955b0
   languageName: node
   linkType: hard
 
@@ -18,23 +18,23 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@artiefuzzz/utils@workspace:."
   dependencies:
-    "@artiefuzzz/ts": 1.3.2
-    "@types/node": 16.11.36
+    "@artiefuzzz/ts": 1.4.0
+    "@types/node": 16.18.126
     xv: 1.1.1
   languageName: unknown
   linkType: soft
 
-"@types/node@npm:16.11.36":
-  version: 16.11.36
-  resolution: "@types/node@npm:16.11.36"
-  checksum: 878e8e2032869785dd4f73dd862042c7eb588fb9a27199f1b493a7029438ccb58f96e203c35c2e66e08307ca3f9767133cae888958c15e031982f7e9719e5e47
+"@types/node@npm:16.18.126":
+  version: 16.18.126
+  resolution: "@types/node@npm:16.18.126"
+  checksum: 86112e7499f8a4d1bb60696cab0bf464adf3c141fca4bc5451e8f3aba5736529b76d4b4396edb21e5d7c19592852f7d6cb81ee70074fd13bde2db2d0db720467
   languageName: node
   linkType: hard
 
-"tslib@npm:^2.3.1":
-  version: 2.3.1
-  resolution: "tslib@npm:2.3.1"
-  checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
+"tslib@npm:2.8.1":
+  version: 2.8.1
+  resolution: "tslib@npm:2.8.1"
+  checksum: e4aba30e632b8c8902b47587fd13345e2827fa639e7c3121074d5ee0880723282411a8838f830b55100cbe4517672f84a2472667d355b81e8af165a55dc6203a
   languageName: node
   linkType: hard
 
