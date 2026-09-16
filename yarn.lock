@@ -19,15 +19,17 @@ __metadata:
   resolution: "@artiefuzzz/utils@workspace:."
   dependencies:
     "@artiefuzzz/ts": 1.3.2
-    "@types/node": 16.11.36
+    "@types/node": 22.20.3
     xv: 1.1.1
   languageName: unknown
   linkType: soft
 
-"@types/node@npm:16.11.36":
-  version: 16.11.36
-  resolution: "@types/node@npm:16.11.36"
-  checksum: 878e8e2032869785dd4f73dd862042c7eb588fb9a27199f1b493a7029438ccb58f96e203c35c2e66e08307ca3f9767133cae888958c15e031982f7e9719e5e47
+"@types/node@npm:22.20.3":
+  version: 22.20.3
+  resolution: "@types/node@npm:22.20.3"
+  dependencies:
+    undici-types: ~6.21.0
+  checksum: 62b09dc86c563816a4c342159629d023e6698adc9a8a792cf1fec23e5b62eca90f3a1da54d5d47fb203c1a36a8b81fd3d0d384cb8fdc6a5e6528991751662389
   languageName: node
   linkType: hard
 
@@ -35,6 +37,13 @@ __metadata:
   version: 2.3.1
   resolution: "tslib@npm:2.3.1"
   checksum: de17a98d4614481f7fcb5cd53ffc1aaf8654313be0291e1bfaee4b4bb31a20494b7d218ff2e15017883e8ea9626599b3b0e0229c18383ba9dce89da2adf15cb9
+  languageName: node
+  linkType: hard
+
+"undici-types@npm:~6.21.0":
+  version: 6.21.0
+  resolution: "undici-types@npm:6.21.0"
+  checksum: 46331c7d6016bf85b3e8f20c159d62f5ae471aba1eb3dc52fff35a0259d58dcc7d592d4cc4f00c5f9243fa738a11cfa48bd20203040d4a9e6bc25e807fab7ab3
   languageName: node
   linkType: hard
 
